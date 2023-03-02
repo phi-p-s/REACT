@@ -1,0 +1,19 @@
+- Challenges:
+
+The biggest challenge that I had was finding out where to start with react.  While I understood most things with
+using JavaScript to fetch the API and manipulate the html file, starting with react was much more confusing.
+One of the problems I had was trying to use the examples in the class GitHub as a template, but that led to 
+more confusion as there were a lot of unused files, and functions in different places, and trying to track what
+was actually useful, and finding out what each part did was much more confusing.
+
+-Overcoming Challenges:
+
+Honestly, the thing that really helped me was working on the site with someone who understood and could much more
+easily guide me through what each function did, why it does that, and what changing certain things does.  It helped
+me understand how to pass and retrieve different values, where to fetch information through the API, as well as add
+and change those elements.
+
+-React or JavaScript?
+
+Personally, the JavaScript was much easier for me to understand, but I realize that with JavaScript there's more tedious
+and repetitive work, and it feels like React can be used to organize and write cleaner code for larger projects.
