@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Pokemon from './pokeGetter';
+import Pokemon from './pokemonList';
+import "./App.css"
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
@@ -19,17 +20,16 @@ function App() {
     <>
       <div>
         <div>
-        <h1>Pokemon Cards</h1>
+        <h1>Pokemon Cards Thing</h1>
         </div>
         <form onSubmit={handleSubmit}>
-          <label htmlFor="pname">Pokemon Name:</label><br></br>
-          <input type="text" placeholder="Pokemon name..." /><br></br><br></br>
-          <button type="submit">Add</button>
+          <input type="text" placeholder="Pokemon name..." />
+          <button type="submit">Fetch Pokemon</button>
            </form>
       </div>
-        <div id="root" className = "pokecards">
-        {pokemon.map((pname)=>(
-          <Pokemon poke={pname}/>
+        <div id="root">
+        {pokemon.map((p)=>(
+          <Pokemon poke={p}/>
         ))}
         </div>
   
